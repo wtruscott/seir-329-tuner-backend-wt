@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2021_06_08_191603) do
   create_table "songs", force: :cascade do |t|
     t.string "title"
     t.string "artist"
-    t.datetime "time"
+    t.string "time"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
